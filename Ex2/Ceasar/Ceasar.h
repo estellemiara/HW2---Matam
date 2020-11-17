@@ -42,8 +42,11 @@
 //...........................Structs...................................//
 //.....................................................................//
 typedef struct files {
-	FILE* input;
-	FILE* output;
+    FILE* input;
+    FILE* output;
+    char key;
+    char thread;
+    char type; 
 }Files;
 
 //typedef struct ceasar {
@@ -52,5 +55,9 @@ typedef struct files {
 //...........................Functions.................................//
 //.....................................................................//
 void exit_prog(Files* files);
+
+void file_check(FILE* file);
+
+void print_to_file(Files* files);
 
 #endif // !CEASAR_H
