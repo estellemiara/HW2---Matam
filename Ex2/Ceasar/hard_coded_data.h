@@ -21,7 +21,7 @@
 #define a						97
 #define Z						90
 #define z						122
-#define ZERO					49
-#define NINE					58
+#define ZERO					48
+#define NINE					57
 
 #endif // !HARD_CODED_DATA_H
